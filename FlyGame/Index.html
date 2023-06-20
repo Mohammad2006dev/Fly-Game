@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="Css/Site.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <nav class="top-nav">
+
+        <div>
+            <h6>Target count : <span id="total-target-span">0</span></h6>
+        </div>
+
+        <div>
+            <h6>Score : <span id="score-span">0</span></h6>
+        </div>
+
+        <div>
+            <h6>Hit count : <span id="hit-count-span">0</span></h6>
+        </div>
+
+        <div>
+            <h6>Shoot count : <span id="shoot-count-span">0</span></h6>
+        </div>
+
+        <div>
+            <h6>Shake level:</h6>
+            <select id="level-select">
+                <option value="200" selected>Easy</option>
+                <option value="275">Medium</option>
+                <option value="320">Hard</option>
+            </select>
+        </div>
+
+        <div>
+            <h6>Target speed:</h6>
+            <select id="speed-select">
+                <option value="20">Slow</option>
+                <option value="40" selected>Medium</option>
+                <option value="60">Fast</option>
+
+            </select>
+        </div>
+
+        <div>
+            <h6>Add target count:</h6>
+            <select id="count-select">
+                <option value="2">Low</option>
+                <option value="1" selected>Medium</option>
+                <option value="0">high</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="game-area">
+
+    </div>
+
+    <div class="shoot-cursor" id="shoot-cursor">
+        <img src="files/shoot.png" />
+
+    </div>
+
+
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="Js/Site.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1fce1b8a-b7ae-4b07-bae1-1fb610b9ead5": {
+      "ProjectGuid": "1fce1b8a-b7ae-4b07-bae1-1fb610b9ead5",
+      "DisplayName": "FlyGame",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

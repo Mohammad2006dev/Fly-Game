@@ -1,0 +1,55 @@
+﻿body {
+padding-top:100px;
+cursor:none;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 100000;
+    background-color: #fd3920;
+    cursor: auto;
+}
+
+.top-nav > div {
+    display:inline-flex;
+    padding:3px;
+    font-family: Arial, Calibri , 'Microsoft Yi Baiti';
+    font-size:18px;
+
+}
+.shoot-cursor {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+    z-index: 1000;
+}
+.shoot-cursor > img {
+        max-width: 1000px;
+        max-height: 50px;
+}
+.target {
+    position:fixed;
+    width:100px;
+    height:100px;
+    top:175px;
+    left:75px;
+    z-index:1;
+    transition:0.5s all;
+    display:block;
+    border-radius:50%;
+}
+.target > img {
+    max-width:100%;
+    max-height:100px;
+}
+.game-area {
+    top: 100px;
+    bottom:0;
+    width:100%;
+}
